@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MovieHunter</string>
+
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_team">Team</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="login">Login</string>
+    <string name="movie_hunter">Movie Hunter</string>
+    <string name="registration">Registration</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="rate">Rate:</string>
+    <string name="movie_name">Movie Name: </string>
+    <string name="description">Description: </string>
+    <string name="genres">Genres: </string>
+    <string name="cast">Cast: </string>
+    <string name="directors">Directors: </string>
+    <string name="writers">Writers: </string>
+    <string name="search_movie_title">Search Movie Title</string>
+    <string name="Search">Search</string>
+    <string name="released">Released:</string>
+    <string name="metascore">Metascore:</string>
+    <string name="boxoffice">BoxOffice:</string>
+
+    <string name="name">Name </string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="enter_name">Enter Name </string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+
+
+    <string name="members">Members:</string>
+    <string name="dongpeng">Dongpeng Dai</string>
+    <string name="seongjun_choi">SeongJun Choi</string>
+    <string name="janhavi_patel">Janhavi Patel</string>
+    <string name="shilpa_dubey">Shilpa Dubey</string>
+
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.ProfileFragment"
+    android:background="@drawable/login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/name"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="@string/enter_name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/email"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/mobile_number"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="@string/enter_mobile_number"
+                android:inputType="number"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/gender"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+           <RadioGroup
+               android:id="@+id/rgGender"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:orientation="horizontal">
+
+               <RadioButton
+                   android:id="@+id/rdMale"
+                   android:layout_width="100dp"
+                   android:layout_height="30dp"
+                   android:layout_marginTop="10dp"
+                   android:text="@string/male"
+                   android:textSize="15dp" />
+
+               <RadioButton
+                   android:id="@+id/rdFemale"
+                   android:layout_width="100dp"
+                   android:layout_height="30dp"
+                   android:layout_marginTop="10dp"
+                   android:text="@string/female"
+                   android:textSize="15dp" />
+
+               <RadioButton
+                   android:id="@+id/rdOther"
+                   android:layout_width="100dp"
+                   android:layout_height="30dp"
+                   android:layout_marginTop="10dp"
+                   android:text="@string/other"
+                   android:textSize="15dp"
+                   android:layout_marginLeft="20dp"/>
+
+           </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/profile_picture"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgProfilePic"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:cropToPadding="true"
+                android:src="@drawable/profilepicture" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toEndOf="@id/btnSubmit"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
